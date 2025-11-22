@@ -46,8 +46,7 @@ export default function Hero() {
           <div className="col-lg-12">
             {/* <!-- START HERO DESIGN AREA --> */}
             <div className="hero-content wow fadeInUp text-center delay-0-2s">
-              <Image className="profile-img" src={me} alt="Profile" />
-              <h2 className="hero-title">Sangram Patra</h2>
+              <h2 className="">Sangram Patra</h2>
               <p>Bengaluru, India • React-focused web developer (3+ years)</p>
               <Link className="theme-btn" href="#contact">
                 Get In touch
