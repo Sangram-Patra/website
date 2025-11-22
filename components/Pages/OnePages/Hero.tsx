@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import me from "@/public/images/avatar/me.jpeg";
 import React, { useEffect } from "react";
 import partner1 from "@/public/images/client-logos/partner1.png";
 import partner2 from "@/public/images/client-logos/partner2.png";
