@@ -1,0 +1,162 @@
+/* Blog Styles */
+.blog-area {
+  padding: 100px 0;
+}
+
+.blog-post-box {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.blog-post-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-post-img img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.blog-post-box:hover .blog-post-img img {
+  transform: scale(1.05);
+}
+
+.blog-post-category {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.blog-post-category a {
+  background: #007bff;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.blog-post-caption {
+  padding: 25px;
+}
+
+.blog-post-caption h3 {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.blog-post-caption h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.blog-post-caption h2 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.blog-post-caption h2 a:hover {
+  color: #007bff;
+}
+
+.theme-btn {
+  display: inline-block;
+  background: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.theme-btn:hover {
+  background: #0056b3;
+  color: #fff;
+}
+
+/* Blog Details Styles */
+.blog-details-area {
+  padding: 100px 0;
+}
+
+.blog-details-content {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.blog-details-img {
+  margin-bottom: 30px;
+}
+
+.blog-details-img img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.blog-details-meta {
+  margin-bottom: 20px;
+}
+
+.blog-details-meta span {
+  color: #666;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.blog-details-content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.blog-details-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.blog-sidebar {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-widget h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.sidebar-widget ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-widget ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar-widget ul li a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.sidebar-widget ul li a:hover {
+  color: #007bff;
+}
