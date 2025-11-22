@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import me from "@/public/images/avatar/me.jpeg";
 import React, { useEffect } from "react";
 import partner1 from "@/public/images/client-logos/partner1.png";
 import partner2 from "@/public/images/client-logos/partner2.png";
@@ -46,8 +45,7 @@ export default function Hero() {
           <div className="col-lg-12">
             {/* <!-- START HERO DESIGN AREA --> */}
             <div className="hero-content wow fadeInUp text-center delay-0-2s">
-              <Image className="profile-img" src={me} alt="Profile" />
-              <h2 className="hero-title">Sangram Patra</h2>
+              <h2 className="">Sangram Patra</h2>
               <p>Bengaluru, India • React-focused web developer (3+ years)</p>
               <Link className="theme-btn" href="#contact">
                 Get In touch
